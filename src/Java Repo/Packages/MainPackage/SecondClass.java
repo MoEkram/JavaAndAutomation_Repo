@@ -1,4 +1,6 @@
-package firstPackage;
+package Packages.MainPackage;
+
+import Packages.MainPackage.FirstClass;
 
 public class SecondClass {
     public static void main(String[] args) {
