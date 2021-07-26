@@ -4,14 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25acc539-407c-42af-a686-4aff240e45ec" name="Default Changelist" comment="commit" />
+    <list default="true" id="25acc539-407c-42af-a686-4aff240e45ec" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/a_Packages/MainPackage/a_FirstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/a_Packages/MainPackage/c_EnglishCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/b_Variables/b_ParameterVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/b_Variables/z_Access Modifiers.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/e_Overriding/a_Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/d_Inheritance/a_Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/IfBranch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/f_ControlStructures/b_IfBranch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/zzzzzzzz/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/LoopDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/f_ControlStructures/e_LoopDoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/LoopFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/f_ControlStructures/c_LoopFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/LoopWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/f_ControlStructures/d_LoopWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/MyCalcuation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/d_Inheritance/b_MyCalcuation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/OperationArithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/Packages/MainPackage/FirstClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/Packages/MainPackage/SecondClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/a_Packages/MainPackage/b_SecondClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/zzzzzzzz/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/TestLogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/c_Operators/b_LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/TestRelational.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/c_Operators/a_RelationalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/testSwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/f_ControlStructures/a_SwitchBranch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/variables/ClassStaticVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/b_Variables/d_StaticVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/variables/InstanceVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/b_Variables/c_InstanceVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/variables/LocalVarAndParameterVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/b_Variables/a_LocalVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Packages/MainPackage/FirstClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Packages/MainPackage/SecondClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/Calculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/IfBranch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/LoopDoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/LoopFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/LoopWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/MyCalcuation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/OperationArithmetic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/TestLogicalOperators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/TestRelational.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/testSwitchCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/variables/ClassStaticVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/variables/InstanceVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/variables/LocalVarAndParameterVar.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1vqPq0JsZnUSBZvHwlTjmO0Xty8" />
   <component name="ProjectLevelVcsManager">
@@ -27,20 +82,81 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SecondClass">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mabdulhalim.c\IdeaProjects\JavaAndAutomation_Repo\src\Java Repo\variables" />
+      <recent name="C:\Users\mabdulhalim.c\IdeaProjects\JavaAndAutomation_Repo\src\Java Repo\Packages\MainPackage" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="variables" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.b_IfBranch">
     <configuration name="FirstClass" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Packages.MainPackage.FirstClass" />
+      <option name="MAIN_CLASS_NAME" value="Packages.MainPackage.a_FirstClass" />
       <module name="JavaAndAutomation_Repo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Packages.MainPackage.SecondClass" />
+    <configuration name="a_SwitchBranch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="f_ControlStructures.a_SwitchBranch" />
       <module name="JavaAndAutomation_Repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Packages.MainPackage.*" />
+          <option name="PATTERN" value="f_ControlStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_IfBranch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="f_ControlStructures.b_IfBranch" />
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="f_ControlStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_LogicalOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c_Operators.b_LogicalOperators" />
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d_Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c_LoopFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="f_ControlStructures.c_LoopFor" />
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="f_ControlStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e_Overriding.testDog" />
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e_Overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,11 +166,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.FirstClass" />
-      <item itemvalue="Application.SecondClass" />
+      <item itemvalue="Application.b_LogicalOperators" />
+      <item itemvalue="Application.testDog" />
+      <item itemvalue="Application.a_SwitchBranch" />
+      <item itemvalue="Application.c_LoopFor" />
+      <item itemvalue="Application.b_IfBranch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecondClass" />
+        <item itemvalue="Application.b_IfBranch" />
+        <item itemvalue="Application.c_LoopFor" />
+        <item itemvalue="Application.a_SwitchBranch" />
+        <item itemvalue="Application.testDog" />
+        <item itemvalue="Application.b_LogicalOperators" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627288802706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1627288881213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627288881213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +225,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
