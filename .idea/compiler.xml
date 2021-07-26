@@ -9,5 +9,8 @@
         <module name="JavaAndAutomation_Repo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaAndAutomation_Repo" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
