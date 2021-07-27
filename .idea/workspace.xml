@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25acc539-407c-42af-a686-4aff240e45ec" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/h_Encapsulation/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/h_Encapsulation/RunEncapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/i_Interfaces/a_AnimalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/j_Exceptions/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/j_Exceptions/Exceptions2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/j_Exceptions/Exceptions3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/a_Polymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/b_Animal_Overriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/c_Horse_Overriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/d_Overloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/e_Overloading_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorIntroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorOverloadingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/m_Abstraction/Abstraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java Repo/g_Arrays/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/g_Arrays/arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java Repo/zzzzzzzz/InterfaceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java Repo/zzzzzzzz/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/i_Interfaces/b_LionImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/courses/InterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/courses/TestInterface.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627299027867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1627375543051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627375543051</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit">
+      <created>1627375559296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627375559296</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
