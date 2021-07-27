@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25acc539-407c-42af-a686-4aff240e45ec" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/h_Encapsulation/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/h_Encapsulation/RunEncapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/i_Interfaces/a_AnimalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/j_Exceptions/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/j_Exceptions/Exceptions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/j_Exceptions/Exceptions3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/a_Polymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/b_Animal_Overriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/c_Horse_Overriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/d_Overloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/k_Polymorphism/e_Overloading_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorIntroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java Repo/l_Constructor/ConstructorOverloadingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/g_Arrays/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/g_Arrays/arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/zzzzzzzz/InterfaceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java Repo/zzzzzzzz/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java Repo/i_Interfaces/b_LionImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/InterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/courses/TestInterface.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +63,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,7 +76,46 @@
       <recent name="variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.b_IfBranch">
+  <component name="RunManager" selected="Application.ConstructorOverloadingTest">
+    <configuration name="ConstructorIntroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l_Constructor.ConstructorIntroTest" />
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l_Constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorOverloadingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l_Constructor.ConstructorOverloadingTest" />
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l_Constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="j_Exceptions.Exceptions2" />
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstClass" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Packages.MainPackage.a_FirstClass" />
       <module name="JavaAndAutomation_Repo" />
@@ -61,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="a_SwitchBranch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f_ControlStructures.a_SwitchBranch" />
+    <configuration name="c_Horse_Overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_Polymorphism.c_Horse_Overriding" />
       <module name="JavaAndAutomation_Repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="f_ControlStructures.*" />
+          <option name="PATTERN" value="k_Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,51 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b_IfBranch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f_ControlStructures.b_IfBranch" />
+    <configuration name="e_Overloading_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_Polymorphism.e_Overloading_Test" />
       <module name="JavaAndAutomation_Repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="f_ControlStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="b_LogicalOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c_Operators.b_LogicalOperators" />
-      <module name="JavaAndAutomation_Repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="d_Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="c_LoopFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f_ControlStructures.c_LoopFor" />
-      <module name="JavaAndAutomation_Repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="f_ControlStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e_Overriding.testDog" />
-      <module name="JavaAndAutomation_Repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e_Overriding.*" />
+          <option name="PATTERN" value="k_Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +151,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.FirstClass" />
-      <item itemvalue="Application.b_LogicalOperators" />
-      <item itemvalue="Application.testDog" />
-      <item itemvalue="Application.a_SwitchBranch" />
-      <item itemvalue="Application.c_LoopFor" />
-      <item itemvalue="Application.b_IfBranch" />
+      <item itemvalue="Application.Exceptions2" />
+      <item itemvalue="Application.c_Horse_Overriding" />
+      <item itemvalue="Application.e_Overloading_Test" />
+      <item itemvalue="Application.ConstructorOverloadingTest" />
+      <item itemvalue="Application.ConstructorIntroTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.b_IfBranch" />
-        <item itemvalue="Application.c_LoopFor" />
-        <item itemvalue="Application.a_SwitchBranch" />
-        <item itemvalue="Application.testDog" />
-        <item itemvalue="Application.b_LogicalOperators" />
+        <item itemvalue="Application.ConstructorOverloadingTest" />
+        <item itemvalue="Application.ConstructorIntroTest" />
+        <item itemvalue="Application.e_Overloading_Test" />
+        <item itemvalue="Application.c_Horse_Overriding" />
+        <item itemvalue="Application.Exceptions2" />
       </list>
     </recent_temporary>
   </component>
