@@ -1,0 +1,27 @@
+Apache Maven
+    - Java project management : Can Development, Build, Deploy, unit Test, Integration Test, Documentation, Code refactor
+    - Build management tool : execute on different environments ( ex: staging, pre-production.. ) with different configurations
+    - Connect to remote Repo ( GIT / SVN ) , compile and package it into a JAR / WAR file.
+    - It has Project object model ( POM ) file to manage project's build, dependency and documentations
+    - Ability to download the project dependency jars automatically from central repo.
+
+Why to use it:
+    - manage Selenium Webdriver , easily add and manage jar files in project build path
+    - Managing dependencies using POM.xml, ex: if you want to update selenium version, you just update the version number in POM.xml
+    - If you have big number of jar files, you will no need to update them manually.
+    - No need to add the Jar files manually or even download and configure the driver executable files (Ex: chrome driver )
+
+What happen:
+    - compare the version of JAR file between the dependencies and the local repo, ex: v1.0
+        - the are the same --> No action will be applied
+        - different version --> download and upgrade the repo.
+    - you can configure it to be applied automatically
+
+
+** for eclipse: Install Maven from Eclipse Marketplace ( Maven Integration for Eclipse ( Luna ) )
+
+
+In POM file, Add  <dependencies> </dependencies>
+
+Then, add dependency between them, by searching in google for:
+    - Selenium java maven
