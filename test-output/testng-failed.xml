@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="JavaAndAutomation_Repo(failed)">
+    <classes>
+      <class name="c_TestNG.TestNG_Assertions">
+        <methods>
+          <include name="getTitle"/>
+          <include name="openURL"/>
+          <include name="closure"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- c_TestNG.TestNG_Assertions -->
+    </classes>
+  </test> <!-- JavaAndAutomation_Repo(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FirstDemo Suite" guice-stage="DEVELOPMENT">
+    <test thread-count="5" name="JavaAndAutomation_Repo">
+      <!--  <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>  -->
+        <classes>
+            <class name="c_TestNG.TestNG_Annotations">
+                <methods>
+                    <include name="openURL"/>
+                </methods>
+            </class> <!-- Class or Test name, ex: c_TestNG.TestNG_Annotations -->
+        </classes>
+    </test> <!-- Project Name, ex: JavaAndAutomation_Repo -->
+</suite> <!-- My Suite name : ex: FirstDemo -->
