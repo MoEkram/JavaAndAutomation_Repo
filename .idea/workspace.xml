@@ -5,55 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25acc539-407c-42af-a686-4aff240e45ec" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeleniumRepo/c_TestNG/TestNG_Annotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeleniumRepo/c_TestNG/TestNG_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeleniumRepo/d_Selenium_DeepDive/a_FindingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/JavaAndAutomation_Repo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/JavaAndAutomation_Repo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-c_TestNG.TestNG_Assertions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/JavaAndAutomation_Repo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeleniumRepo/d_Selenium_DeepDive/b_Browser_Navigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeleniumRepo/d_Selenium_DeepDive/c_WorkingWithElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAndAutomation_Repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAndAutomation_Repo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FirstTimeScripting/ChromeDriverDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FirstTimeScripting/FirefoxDriverDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MavenScripting/ChromeDriverDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MavenScripting/FirefoxDriverDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MavenScripting/InternetExplorerDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WhyMaven" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SeleniumRepo/d_Selenium_DeepDive/a_FindingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeleniumRepo/d_Selenium_DeepDive/a_FindingElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/d_Selenium_DeepDive/a_FindingElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/d_Selenium_DeepDive/a_FindingElements.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,48 +69,10 @@
       <recent name="variables" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.a_FindingElements">
+  <component name="RunManager" selected="TestNG.c_WorkingWithElements">
     <configuration name="FirstClass" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Packages.MainPackage.a_FirstClass" />
       <module name="JavaAndAutomation_Repo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/mabdulhalim.c/IdeaProjects/JavaAndAutomation_Repo/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaAndAutomation_Repo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNG_Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaAndAutomation_Repo" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="c_TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="c_TestNG" />
-      <option name="MAIN_CLASS_NAME" value="c_TestNG.TestNG_Annotations" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,21 +140,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="b_Browser_Navigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d_Selenium_DeepDive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="d_Selenium_DeepDive" />
+      <option name="MAIN_CLASS_NAME" value="d_Selenium_DeepDive.b_Browser_Navigation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c_WorkingWithElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaAndAutomation_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d_Selenium_DeepDive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="d_Selenium_DeepDive" />
+      <option name="MAIN_CLASS_NAME" value="d_Selenium_DeepDive.c_WorkingWithElements" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.FirstClass" />
-      <item itemvalue="TestNG.TestNG_Annotations" />
-      <item itemvalue="TestNG.C:/Users/mabdulhalim.c/IdeaProjects/JavaAndAutomation_Repo/TestNG.xml" />
       <item itemvalue="TestNG.TestNG_Assertions" />
       <item itemvalue="TestNG.a_FindingElements" />
       <item itemvalue="TestNG.a_FindingElements.openURL" />
+      <item itemvalue="TestNG.b_Browser_Navigation" />
+      <item itemvalue="TestNG.c_WorkingWithElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.c_WorkingWithElements" />
+        <item itemvalue="TestNG.b_Browser_Navigation" />
         <item itemvalue="TestNG.a_FindingElements" />
         <item itemvalue="TestNG.a_FindingElements.openURL" />
         <item itemvalue="TestNG.TestNG_Assertions" />
-        <item itemvalue="TestNG.TestNG_Annotations" />
-        <item itemvalue="TestNG.C:/Users/mabdulhalim.c/IdeaProjects/JavaAndAutomation_Repo/TestNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627468566463</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1627803071034</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627803071034</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit">
+      <created>1627803079454</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627803079454</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

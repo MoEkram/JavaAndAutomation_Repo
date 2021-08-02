@@ -35,11 +35,21 @@ package d_Selenium_DeepDive;
 //                                  You want to get all table rows and make a loop on it, or check the domain of all URLs in the page
 //                                  no exception will be returned if no elements found, it will return empty list
 
+// different between XPath : search elements backwards and forwards in the DOM hierarchy. ( ex: you can find parent by chile element and vice versa )
+//                   CSS   : search elements only forward direction
+//  Find by XPath : ( XML Path Language ) :
+//              - Absolute Path: very specific location of the element ( full path )
+//                               ex: /html/body/div/div/form/input
+//              - Relative Path: locate element directly irrespective of its location in DOM
+//                               ex: //input[2]
+//              - Predicates :   predicate is embedded in square brackets and is used to find out specific node (s ) or a node that contains a specific value
+//                               ex: //input[@id='username']
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -49,22 +59,29 @@ import java.util.List;
 
 public class a_FindingElements {
 
-    ChromeDriver driver;
+    //ChromeDriver driver;
+    FirefoxDriver driver;
 
     @BeforeTest
     public void initialization (){
-        String driverKey = "webdriver.chrome.driver";
-        String driverPath = System.getProperty("user.dir")+"\\resources\\chromedriver_92.0.4515.43.exe";
+        String driverKey = "webdriver.gecko.driver";   //Chrome: webdriver.chrome.driver
+        String driverPath = System.getProperty("user.dir")+"\\resources\\geckodriver_0.29.1.exe";      //chrome: chromedriver_92.0.4515.43
         System.setProperty(driverKey,driverPath);
-        driver = new ChromeDriver();
+
+        // In case your Fixefox is not installed in the default path
+        System.setProperty("webdriver.firefox.bin",          // key for the exe file
+                "C:\\Users\\mabdulhalim.c\\AppData\\Local\\Mozilla Firefox\\firefox.exe");    // path of exe file include file name with .exe ( remove // , just one / )
+
+        //driver = new ChromeDriver();
+        driver = new FirefoxDriver();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, enabled = false)
     public void openURL (){
         driver.navigate().to("https://the-internet.herokuapp.com/login");
     }
 
-    @Test ( dependsOnMethods = {"openURL"})
+    @Test ( dependsOnMethods = {"openURL"}, enabled = false)
     public void findElement(){
         try {
             WebElement usernameTxt = driver.findElement(By.id("username"));         // By ID
@@ -81,7 +98,7 @@ public class a_FindingElements {
 
     }
 
-    @Test (priority = 2, dependsOnMethods = {"openURL"})
+    @Test (priority = 2, dependsOnMethods = {"openURL"}, enabled = false)
     public void findElementByTagName(){
         try {
             WebElement loginBtn = driver.findElement(By.tagName("button"));       // By tagName, ex: <button class="radius" ...
@@ -94,14 +111,14 @@ public class a_FindingElements {
 
     }
 
-    @Test (priority = 4)
+    @Test (priority = 4, enabled = false)
     public void findElementByTag(){
         try {
 
             driver.navigate().to("https://the-internet.herokuapp.com/tables");
             WebElement tableElm = driver.findElement(By.id("table1"));       // First find the whole table...
 
-            List<WebElement> rows = tableElm.findElements(By.tagName("tr"));  //
+            List<WebElement> rows = tableElm.findElements(By.tagName("tr"));  // get all rows from the table
 
             System.out.println("table size = " + rows.size());
             System.out.println("row number 3 = " + rows.get(3).getText());
@@ -112,7 +129,7 @@ public class a_FindingElements {
 
     }
 
-    @Test (priority = 3)
+    @Test (priority = 3, enabled = false)
     public void findElementByCssSelector(){
         try {
 
@@ -128,13 +145,13 @@ public class a_FindingElements {
 
 
 
-    @Test (priority = 5)
+    @Test (priority = 5, enabled = false)
     public void findMultipleElements(){
         try {
 
             driver.navigate().to("https://the-internet.herokuapp.com/");
 
-            List<WebElement> allURLs = driver.findElements(By.tagName("a"));     //list of webeLements , no exception will be displayed with findElements, it will return empty list,
+            List<WebElement> allURLs = driver.findElements(By.tagName("a"));     //list of webElements , no exception will be displayed with findElements, it will return empty list,
 
             System.out.println("Number of URLs in the page = " + allURLs.size());
 
@@ -143,6 +160,45 @@ public class a_FindingElements {
             for (WebElement eachURL : allURLs){
                 System.out.println(eachURL.getAttribute("href"));  //get all URLs in the page
             }
+
+
+        } catch (NoSuchElementException e){
+            System.out.println("The element is not found, use anther attribute");
+        }
+
+    }
+
+
+    @Test (priority = 6, enabled = false)
+    public void findLinks(){
+        try {
+
+            driver.navigate().to("https://the-internet.herokuapp.com/login");
+            WebElement Link = driver.findElement(By.linkText("Elemental Selenium"));
+            System.out.println("findElement by link text : " + Link.getAttribute("href"));
+
+            WebElement PartLink = driver.findElement(By.partialLinkText("Elemental"));
+            System.out.println("findElement by Part link text : " + PartLink.getAttribute("href"));
+
+
+        } catch (NoSuchElementException e){
+            System.out.println("The element is not found, use anther attribute");
+        }
+
+    }
+
+
+    @Test (priority = 7)
+    public void findByXpath(){
+        try {
+
+            driver.navigate().to("https://the-internet.herokuapp.com/login");
+            WebElement userNametxt = driver.findElement(By.xpath("//*[@id=\"username\"]"));    // absolute xpath
+            System.out.println("findElement by absolute xpath : " + userNametxt.getTagName());
+
+            WebElement passwordBtn = driver.findElement(By.xpath("//input"));                      // relative xpath
+            System.out.println("findElement by relative xpath : " + passwordBtn.getTagName());
+
 
         } catch (NoSuchElementException e){
             System.out.println("The element is not found, use anther attribute");
